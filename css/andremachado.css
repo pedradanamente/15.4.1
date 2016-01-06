@@ -1,0 +1,184 @@
+body {background-color: #EEE;background-repeat: repeat;margin:0 auto;color:#FFF;font-family:"Sans","sans-serif","Arial";background-image: url("../images/bg1.jpg");}
+input {background-color:rgba(255,255,255,0.7);border:0px;margin:2px;padding:4px;color:#184A62;}
+input:hover{background-color:rgba(255,255,255,0.8);}
+ul { margin:0px;padding:0px; }
+li { list-style-type: none;}
+textarea{background-color: rgba(255, 255, 255, 0.7);border: 0px none;margin: 2px;padding: 4px;color: #184A62;}
+hr { background-color:rgba(255,255,255,0.4);padding:1px;border:0px; }
+h1{margin: 0px;padding: 7px;font-size: 14px;letter-spacing: 1px;color: #FFF;}
+button:hover{cursor: pointer;}
+a { text-decoration: none; color:#FFF;}
+a:visited {color:#FFF;}
+.buttonpesq{
+float: right;
+margin-top: -22px;
+margin-right: 13px;
+padding: 5px;
+background-color: #6B554A;
+border: 0px solid gray;
+color: #FFF;
+}
+.buttonpesq:hover{background-color:#A2694D;}
+.buttonpesq:active{background-color:#A2694D;}
+.lipesqup{
+float: right;
+margin-top: -68px;
+margin-right: 5px;
+padding: 5px;
+border: 0px solid gray;
+color: #FFF;
+}
+.selpesq{height: 30px;
+background-color: #F0F0F0;
+border: 0px none;
+font-family: "Sans";
+font-weight: bold;
+color: #D24343;
+padding: 5px;
+width: 130px;
+font-size: 12px;}
+.ulpesq{margin-left: 12px;
+color: #000;
+margin-top: 35px;}
+.optpesq{color: #D33;background-color: #F0F0F0;padding:5px;}
+.pesqli {height: 30px;
+font-size: 14px;
+font-family: arial;
+margin-top: -23px;
+padding: 2px;}
+#BASE {width: 930px;padding: 0px;min-height: 250px;margin: 0px auto;background-color: rgba(0, 0, 0, 0);}
+#PESQUISA {clear: both;
+min-height: 150px;
+padding: 0px;
+border-bottom: 1px solid #E4AB07;
+background-color: #FFF;
+margin-bottom: 15px;}
+#NAV {background-color: #6B554A;height:37px;width: 100%;border-bottom: 1px solid #44BDC6;}
+#CONTEUDO {clear:both;width:930px;padding:0px 0px 0px 0px;min-height:100px;}
+#FOOTER {clear: both;width: 100%;padding: 0px;min-height: 260px;margin: 15px auto 0px;border-top: 1px solid #E42533;background-color: #EEE;}
+#RODAPE {padding: 10px 0px;clear: both;width: 100%;min-height: 75px;margin: 0px auto;background-color: rgb(228, 38, 38);border-top: 1px solid rgba(255, 255, 255, 0.3);border-bottom: 1px solid rgba(255, 255, 255, 0.3);}
+.boxthumb{padding-top:5px;padding-bottom:5px;}
+.venda {
+	color: #FFF;
+background-color: #6B554A;
+clear:both;letter-spacing:1px;
+font-weight:bold;
+font-size:14px;
+padding:5px;
+border:0px;
+text-align:center;
+}
+.locacao {
+	color: #FFF;
+background-color: #0D89B9;
+clear:both;letter-spacing:1px;
+font-weight:bold;
+font-size:14px;
+padding:5px;
+border:0px;
+text-align:center;
+}
+.temporada {
+	color: #FFF;
+background-color: #F8931F;
+clear:both;letter-spacing:1px;
+font-weight:bold;
+font-size:14px;
+padding:5px;
+border:0px;
+text-align:center;
+}
+.linha{margin-top: 4px;margin-left: 3px;}
+.clictolist {margin-top:6px;font-size:12px;}
+.codigo {float: right;background-color: rgba(239, 234, 152, 0);color: rgba(247, 248, 241, 0.85);height: 20px;padding: 10px;font-size: 18px;}
+.navinho { width:930px;margin:0 auto;padding-top:8px; }
+.logomarca { margin-top: 15px; }
+.menutop { margin-top:0px;float:left;margin-right: -1px; }
+.libutton {letter-spacing: 1px;float: left;font-size: 15px;list-style-type: none;margin-right: 0px;width: 118px;padding: 7px;text-align: center;border-top: 6px solid #159AB7;margin-top: -8px;}
+.activex { background-color:#20A197;border-top: 6px solid #FFF; }
+.libutton:hover {border-top: 6px solid #BAFF00;background-color:#F25F5F;}
+.libutton2{border-radius: 6px;letter-spacing:1px;font-size:12px;list-style-type: none; padding:4px;text-align: center; border:1px solid rgba(0,0,0,0.3);width:100px;background-color:rgba(126, 109, 109, 0.16);margin-right:0px;}
+.libutton2:hover {background-color:#BAFF00;}
+.topdiv {clear:both;padding:0px;}
+.boxfooterli {color:#8D3737;font-size:14px;margin-bottom:2px;}
+.boxfooterli:hover{color:#58A51A}
+.inputMaster {text-align:center;background-color:rgba(1, 8, 12, 0.29);color:#FFF;}
+.inputMaster:hover {background-color:rgba(1, 8, 12, 1.29);}
+.selectConfirmarPagamento {width: 160px;height: 28px;border: 0px;margin: 0px;padding: 0px;background-color: #01080C;color: #FAFFF9;}
+.selectMobiliado {width: 100%;height: 28px;border: 0px;margin: 0px;padding: 0px;background-color: rgba(1, 8, 12, 0.29);color: #FAFFF9;}
+.selectMobiliado:hover {background-color:rgba(1, 8, 12, 1.29);}
+.pvalor{font-size:13px;margin:0px;padding:0px;color:#1C203E;margin-top:4px;}
+.ptipo {font-size:12px;margin:0px;padding:0px;color:#FFF;background-color: #565B5C;width:153px;padding:4px;margin-top:-4px;margin-bottom:4px;text-align:center;}
+.pdestaque{font-size:12px;margin:0px;padding:0px;color:#10376B;margin-bottom: 2px;}
+.inputConfirmarPagamento {text-align:center;background-color:rgba(0,0,0,0.0);color:#B4F3A4;}
+.inputConfirmarPagamento:hover {background-color:rgba(22, 22, 24, 0.65);}
+.buttonConfirmarPagamento {width: 100%;border: 0px;background-color: rgba(0,0,0,0.4);;color: #FFF;height: 32px;padding: 0px;margin: 0px;}
+.buttonConfirmarPagamento:hover{background-color:#E74C3C;}
+.navbar {background-color: #E74C3C;width: 100%;height: 43px;}
+.labelbg{background-color: #E74C3C;width: 100%;height: 43px;cursor: pointer;clear:both;border-bottom: 1px solid rgba(230, 220, 181, 0.62);}
+.labelbg:hover{background-color:#20A197;}
+.labelbg:active{background-color:#20A197;}
+.sliderhomepage{clear:both;padding:0px;margin-top: 16px;}
+.fl { float:left; }
+.fr { float:right; }
+.imglogo{padding: 5px 0px 5px 5px;}
+.designedby{float:right;margin-right:25px;clear:both;font-size:12px;margin-bottom:15px;color:rgba(255,255,255,0.6);}
+.imoveisemdestaque{font-size:14px;letter-spacing:1px;font-weight:bold;}
+.menurodape {width:930px;margin: 0 auto;margin-top:10px;}
+.arruma{clear: both;margin: 0px;padding: 5px 15px 15px;font-size: 14px;}
+.destaquebox {border: 1px solid #EDECEC;
+min-height: 80px;
+width: 18.5em;
+float: left;
+margin-left: 1px;
+margin-bottom: 1px;
+background-color: rgba(245, 240, 240, 0.92);
+cursor: pointer;
+padding: 5px;
+}
+.imoveisbox {border:0px;min-height:80px;width:19.3em;float:left;margin-left:1px;margin-bottom:1px;background-color:rgba(245, 240, 240, 0.92);}
+.destaqueimg {margin: 0px;width: 130px;margin-right: 5px;height: 120px;}
+.bordinha{margin:0px;padding:0px;}
+.bordinha2{padding-top:0px;clear:both;}
+.boxrodape {width:930px;margin: 0 auto;}
+.p1rodape{width:530px;}
+.p2rodape{font-size:12px;}
+.buttonsignin {border: 0px none;background-color: #B13A3A;color: #FFF;padding: 5px;margin-top:-29px;width: 80px;text-shadow: 0px 1px 1px #F9F8F3;font-size:12px;}
+.inputsignin {width:100px;}
+.lidetails{padding: 4px;
+font-size: 14px;
+width: 270px;
+letter-spacing: 1px;}
+.fundodetails{color:#FFF;background-color:rgba(0, 0, 0, 0.6);
+margin: 0px;
+padding: 15px;
+border-top: 1px solid #F2A186;}
+.liform {width:150px;margin-top:7px;}
+.pedido {	background-color: rgba(0,0,0,0.4);color: gold;border: 0px;padding: 10px;float: right;margin-top: 15px;text-align: center;font-size:12px;margin-left: 10px;letter-spacing:1px;text-shadow: 1px 2px 8px #052001;}
+.pedido:hover{background-color:#E74C3C;text-shadow: 1px 2px 8px #052001;}
+.detalhesleft{width:275px;min-height: 230px;}
+.imgexibedetails{padding: 0px;
+margin-bottom: 1px;
+border: 1px solid rgba(253, 255, 255, 0.72);
+margin-right: -4px;
+margin-top: -4px;}
+.divexibedetails{width:415px;text-align:right;min-height: 175px;}
+.deslogar {text-align:right;letter-spacing:1px;text-shadow: 1px 2px 8px #052001;padding-bottom: 15px;}
+.deslogar:hover {color:#FFF300;}
+.esqueci {text-align:right;margin-top:10px;font-size:12px;text-shadow: 1px 2px 8px #052001;}
+.esqueci:hover {color:#FFF300;}
+.metodo {cursor:pointer;font-size:12px;letter-spacing:1px;height:20px;width:920px;background-color:#203230;margin-bottom:0px;padding:10px 5px 5px 5px;border-bottom:1px solid rgba(0,0,0,0.3);}
+.metodo:hover {background-color:gold;color:blue;font-weight:bold;}
+.trUP {font-family:Arial;font-size:12px;height:30px;background-color:#181F2B;letter-spacing:1px;color: #EEE;}
+.trDOWN {font-family:Arial;height:20px;background-color:rgba(0,0,0,0.8);text-align:center;font-size:12px;}
+.trDOWNH {font-family:Arial;height:20px;background-color:rgba(0,0,0,0.8);text-align:center;font-size:12px;}
+.trDOWNH:hover{background-color:#04577E;}
+.buttonSalvarCliente{background-color:#6B554A;border: 0px;color: gold;padding: 5px;float: right;margin-right: 10px;margin-top:15px;}
+.buttonSalvarCliente:hover{background-color:#E74C3C;cursor: pointer;}
+.buttonEnviarMSG{background-color: rgba(0,0,0,0.4);color: gold;border: 0px;padding: 5px;float: left;margin-right: 10px;margin-top:15px;}
+.buttonEnviarMSG:hover{background-color:#E74C3C;cursor: pointer;}
+.textareaanotacao { margin-top: -16px;padding:5px;background-color:rgba(24, 17, 17, 0.49);border:1px solid rgba(255,255,255,0.1);color:#FFF;max-width: 98.4%;width: 98.4%;margin-bottom: -17px; }
+.textareajax {	font-size: 14px;margin-top: -2px;padding: 15px;background-color: rgba(24, 17, 17, 0.49);border: 1px solid rgba(255, 255, 255, 0.1);color: #FFF;width: 96.5%;min-height:250px;max-width: 98.4%;margin-bottom: 0px;margin-left: 0px;}
+
+
+/* CSS MENU *//* http://cssmenumaker.com/menu/stitched-menu *//* Generated via www.cssmenubuilder.com */
